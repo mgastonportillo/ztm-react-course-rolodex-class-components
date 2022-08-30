@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	/* CSS system fonts cheatsheet - https://devhints.io/css-system-font-stack */
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+		"Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #f1f1f1;
+	background: #000405;
+	background-image: url("https://www.transparenttextures.com/patterns/binding-light.png");
+	text-align: center;
+}
+
+.app-title {
+	font-family: "Emilys Candy", cursive;
+	font-size: 2.5rem;
+	margin: 43px 0;
+	stroke: 25px solid black;
+	background: linear-gradient(90deg, #f1f1f1, #afafaf);
+	background: -webkit-linear-gradient(90deg, #f1f1f1, #afafaf);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.App {
+	margin-bottom: 50px;
+}
