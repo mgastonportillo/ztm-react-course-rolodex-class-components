@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Lily from "../../assets/img/lily.png";
 import "./card.styles.css";
 
 class Card extends Component {
@@ -7,7 +8,11 @@ class Card extends Component {
 		return (
 			<div className="card-container" key={catId}>
 				<img
-					src={`https://robohash.org/${catId}?set=set4&size=180x180`}
+					src={
+						catId === 11
+							? Lily
+							: `https://robohash.org/${catId}?set=set4&size=180x180`
+					}
 					alt={`cat ${catName}`}
 				/>
 				<h2>{catName}</h2>

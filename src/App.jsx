@@ -30,11 +30,19 @@ class App extends Component {
 	};
 
 	render() {
-		// I need to review thissssssss
 		const { cats, searchField } = this.state;
 		const { onSearchChange } = this;
 
-		const filteredCats = cats.filter((cat) => {
+		const catsAll = [
+			{
+				id: 11,
+				name: "Lily",
+				address: { street: "Home", suite: "with Mum" },
+			},
+			...cats,
+		];
+
+		const filteredCats = catsAll.filter((cat) => {
 			return cat.name.toLocaleLowerCase().includes(searchField);
 		});
 
