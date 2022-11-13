@@ -8,7 +8,7 @@
 <h2>Concepts and technologies</h2>
 <ul>
 <li>React.js</li>
-<li>Components</li>
+<li>Class Components</li>
 <li>JavaScript ES6</li>
 <li>API consumption</li>
 <li>CSS Grid</li>
