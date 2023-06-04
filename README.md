@@ -3,7 +3,7 @@
 <hr>
 <h2>Preview</h2>
 <a align="center"><img src="https://user-images.githubusercontent.com/106234166/198903464-f553f62f-4c06-4561-93f3-69908fe17fb3.png"></a>
-<p><a href="https://catto-rolodex-mgastonportillo.vercel.app">Live preview</a></p>
+<p><a href="https://ztm-react-rolodex-class-comps-mgastonportillo.vercel.app/">Live preview</a></p>
 <hr>
 <h2>Concepts and technologies</h2>
 <ul>
